@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #10002b, #240046, #3c096c);
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+/* Cabeçalho */
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 38px;
+    color: #e0aaff;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* Conteúdo */
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* Cards */
+
+.card {
+    background-color: #ffffff;
+    color: #222222;
+
+    padding: 25px;
+    margin-bottom: 20px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+
+    border-left: 6px solid #c77dff;
+}
+
+.card h2 {
+    color: #7209b7;
+    margin-bottom: 12px;
+}
+
+.card p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Área do botão */
+
+.interacao {
+    background-color: #5a189a;
+    text-align: center;
+
+    padding: 30px;
+    margin-top: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.mensagem {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Botão */
+
+.botao {
+    background-color: #e0aaff;
+    color: #240046;
+
+    border: none;
+    border-radius: 10px;
+
+    padding: 14px 25px;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+}
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+    padding: 25px;
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+    margin-top: 40px;
+}
+
+footer p {
+    color: #e0aaff;
+}
